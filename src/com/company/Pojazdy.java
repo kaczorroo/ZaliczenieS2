@@ -4,21 +4,21 @@ package com.company;
  * Created by ced on 2016-06-11.
  */
 public class Pojazdy {
-    private String numerPojazdu;
-    private String predkoscMax;
+    private int numerPojazdu;
+    private int predkoscMax;
     private String zajezdnia;
 
-    public Pojazdy(String numerPojazdu, String predkoscMax, String zajezdnia) {
+    public Pojazdy(int numerPojazdu, int predkoscMax, String zajezdnia) {
         this.numerPojazdu = numerPojazdu;
         this.predkoscMax = predkoscMax;
         this.zajezdnia = zajezdnia;
     }
 
-    public String getNumerPojazdu() {
+    public int getNumerPojazdu() {
         return numerPojazdu;
     }
 
-    public String getPredkoscMax() {
+    public int getPredkoscMax() {
         return predkoscMax;
     }
 

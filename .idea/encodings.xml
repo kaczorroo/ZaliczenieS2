@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/company/Autobus.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/company/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/company/Pojazdy.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/company/Tramwaj.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/company/ZajezdniaAutobusowa.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/company/ZajezdniaTramwajowa.java" charset="UTF-8" />
   </component>
 </project>

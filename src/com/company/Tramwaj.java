@@ -6,7 +6,7 @@ package com.company;
 public class Tramwaj extends Pojazdy {
     private int ileWagonow;
 
-    public Tramwaj(final String numerPojazdu, final String predkoscMax, final String zajezdnia, final int ileWagonow){
+    public Tramwaj(final int numerPojazdu, final int predkoscMax, final String zajezdnia, final int ileWagonow) {
         super(numerPojazdu, predkoscMax, zajezdnia);
         this.ileWagonow = ileWagonow;
     }
