@@ -20,9 +20,28 @@ public class Autobus extends Pojazdy {
     }
 
     @Override
+    public int getNumerPojazdu() {
+        return super.getNumerPojazdu();
+    }
+
+    @Override
+    public int getPredkoscMax() {
+        return super.getPredkoscMax();
+    }
+
+    @Override
+    public String getZajezdnia() {
+        return super.getZajezdnia();
+    }
+
+    @Override
     public String toString() {
         return "Autobus{" +
                 "ilePaliwaZuzyl=" + ilePaliwaZuzyl +
+                " numerPojazdu="+getNumerPojazdu()+
+                " predkoscMax=" + getPredkoscMax() +
+                " zajezdnia="+ getZajezdnia() +
+                " ilePaliwa="+ getIlePaliwaZuzyl() +
                 '}';
     }
 }

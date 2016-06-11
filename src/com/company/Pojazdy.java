@@ -3,7 +3,7 @@ package com.company;
 /**
  * Created by ced on 2016-06-11.
  */
-public class Pojazdy {
+public abstract class Pojazdy {
     private int numerPojazdu;
     private int predkoscMax;
     private String zajezdnia;

@@ -11,6 +11,25 @@ public class Tramwaj extends Pojazdy {
         this.ileWagonow = ileWagonow;
     }
 
+    public Tramwaj(int numerPojazdu, int predkoscMax, String zajezdnia) {
+        super(numerPojazdu, predkoscMax, zajezdnia);
+    }
+
+    @Override
+    public int getNumerPojazdu() {
+        return super.getNumerPojazdu();
+    }
+
+    @Override
+    public int getPredkoscMax() {
+        return super.getPredkoscMax();
+    }
+
+    @Override
+    public String getZajezdnia() {
+        return super.getZajezdnia();
+    }
+
     public int getIleWagonow() {
         return ileWagonow;
     }
@@ -19,6 +38,10 @@ public class Tramwaj extends Pojazdy {
     public String toString() {
         return "Tramwaj{" +
                 "ileWagonow=" + ileWagonow +
+                " zajezdnia="+ getZajezdnia() +
+                " ileWagonow="+ getIleWagonow() +
+                " numerPojazdu="+ getNumerPojazdu() +
+                " predkoscMax="+ getPredkoscMax() +
                 '}';
     }
 }
